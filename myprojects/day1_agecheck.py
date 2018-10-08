@@ -11,8 +11,6 @@ def get_birthyear():
     birthyear = int(input("What year were your born?  "))
     return birthyear
 
-    # print("So you were born in " + birthyear + "!")      # Test for valid input
-
 # Get current year
 def get_currentdate():
     currentdate = datetime.today()
@@ -27,26 +25,7 @@ def current_age():
     print ("I am guessing you are " + str(age) + " years old!")
     print("You have been alive for " + str(days_alive) + " days!")
 
-#    return age
 
-# calculate and print additional information about age
-
-
-# how may days alive
-# def days_old(days):
-#    age = current_age()
-#    days = int(age) *int(365)
-#    print("You have also been alive for " + str(days)  + "!")
-#    return days
-
-
-# how many months
-# def months(current_age):
-#    current_age = age
-#    months_old = int(age)  * int(12)
-#  return months_old
-
-# how many minutes, etc
 
 
 def main():
